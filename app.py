@@ -7,3 +7,6 @@ bcrypt = Bcrypt(app)
 @app.route('/')
 def home():
     return "Servidor rodando com segurança e pronto para o auth!"
+
+    if _name_ == '_main_':
+    app.run(debug=True)
