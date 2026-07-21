@@ -3,3 +3,7 @@ from flask_bcrypt import Bcrypt
 
 app = Flask(_name_)
 bcrypt = Bcrypt(app)
+
+@app.route('/')
+def home():
+    return "Servidor rodando com segurança e pronto para o auth!"
