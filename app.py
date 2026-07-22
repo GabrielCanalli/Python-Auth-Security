@@ -26,5 +26,29 @@ init_db()
 def home():
     return "Servidor rodando com segurança e pronto para o auth!"
 
+@app.route('/register', methods=['GET', 'POST'])
+def register():
+    if request.method == 'POST':
+        username = request.form['username']
+        password = request.form['password']
+        hashed_password = bcrypt.generate_password_hash(password).decode('utf-8')
+
+        try:
+            conn = sqlite3.connect('users.db')
+            cursor = conn.cursor()
+            cursor.execute('INSERT INTO users (username, password) VALUES (?, ?)', (username, hashed_password))
+            conn.commit()
+            return redirect(url_for('home'))
+        except sqlite3.IntegrityError:
+            return "Usuário já existe!"
+    return '''
+        <form method='POST'>
+            <h2>Cadastro de Usuário
+            <input type='text' name='username' placeholder='Nome de usuário' required><br><br>
+            <input type='password' name='password' placeholder='Senha' required><br><br>
+            <button type='submit'>Cadastrar</button>
+        </form>
+    '''
+
 if __name__ == '__main__':
     app.run(debug=True)
