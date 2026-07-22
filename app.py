@@ -2,12 +2,10 @@ import sqlite3
 from flask import Flask, render_template, request, redirect, url_for
 from flask_bcrypt import Bcrypt
 
-app = Flask(_name_)
+app = Flask(__name__)
 bcrypt = Bcrypt(app)
 
 # Função para conectar ao banco de dados e criar a tabela de usuários.
-# Function to connect to the database and create the users table.
-
 def init_db():
     conn = sqlite3.connect('users.db')
     cursor = conn.cursor()
@@ -21,10 +19,12 @@ def init_db():
     conn.commit()
     conn.close()
 
-    
+# Chama a função para criar o banco ao iniciar o arquivo
+init_db()
+
 @app.route('/')
 def home():
     return "Servidor rodando com segurança e pronto para o auth!"
 
-    if _name_ == '_main_':
+if __name__ == '__main__':
     app.run(debug=True)
