@@ -5,3 +5,4 @@ Sistema de autenticação backend desenvolvido em *Python* utilizando *Flask*, c
 
 ## 🚀 Tecnologias Utilizadas
 *Python* (Lógica do sistema)
+* *Flask* (Microframework web)
