@@ -22,3 +22,7 @@ Sistema de autenticação backend desenvolvido em *Python* utilizando *Flask*, c
    git clone [https://github.com/SEU_USUARIO/Python-Auth-Security.git](https://github.com/SEU_USUARIO/Python-Auth-Security.git)
    cd Python-Auth-Security
 ```
+2. Instale as dependências:
+```bash
+   pip install -r requirements.txt
+```
