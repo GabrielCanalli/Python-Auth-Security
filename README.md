@@ -18,3 +18,6 @@ Sistema de autenticação backend desenvolvido em *Python* utilizando *Flask*, c
 
 ## 🛠️ Como Executar o Projeto
 1. Clone o repositório:
+```bash
+   git clone [https://github.com/SEU_USUARIO/Python-Auth-Security.git](https://github.com/SEU_USUARIO/Python-Auth-Security.git)
+   cd Python-Auth-Security
