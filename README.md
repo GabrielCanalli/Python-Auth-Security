@@ -17,3 +17,4 @@ Sistema de autenticação backend desenvolvido em *Python* utilizando *Flask*, c
 * **Segurança de Repositório (`.gitignore`)**: Exclusão de arquivos sensíveis e bancos de dados locais do versionamento público.
 
 ## 🛠️ Como Executar o Projeto
+1. Clone o repositório:
