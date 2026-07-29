@@ -14,4 +14,4 @@ Sistema de autenticação backend desenvolvido em *Python* utilizando *Flask*, c
 * **Autenticação de Login (`/login`)**: Validação de credenciais e comparação segura de hashes.
 * **Gerenciamento de Sessão (`session`)**: Controle de estado para manter o usuário autenticado.
 * **Painel Protegido (`/dashboard`)**: Rota restrita acessível apenas mediante autenticação válida.
-* *Segurança de Repositório (.gitignore)*: Exclusão de arquivos sensíveis e bancos de dados locais do versionamento público.
+* **Segurança de Repositório (`.gitignore`)**: Exclusão de arquivos sensíveis e bancos de dados locais do versionamento público.
