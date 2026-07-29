@@ -26,3 +26,7 @@ Sistema de autenticação backend desenvolvido em *Python* utilizando *Flask*, c
 ```bash
    pip install -r requirements.txt
 ```
+3. Execute a aplicação:
+```bash
+   python app.py
+```
