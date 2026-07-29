@@ -8,3 +8,5 @@ Sistema de autenticação backend desenvolvido em *Python* utilizando *Flask*, c
 * *Flask* (Microframework web)
 * *Flask-Bcrypt* (Hash seguro de senhas)
 * *SQLite3* (Banco de dados relacional leve)
+
+## ⚙️ Funcionalidades
