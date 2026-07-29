@@ -10,3 +10,4 @@ Sistema de autenticação backend desenvolvido em *Python* utilizando *Flask*, c
 * *SQLite3* (Banco de dados relacional leve)
 
 ## ⚙️ Funcionalidades
+* **Cadastro de Usuários (`/register`)**: Registro com validação de duplicidade e proteção de senha utilizando hash Bcrypt.
