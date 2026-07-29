@@ -12,3 +12,4 @@ Sistema de autenticação backend desenvolvido em *Python* utilizando *Flask*, c
 ## ⚙️ Funcionalidades
 * **Cadastro de Usuários (`/register`)**: Registro com validação de duplicidade e proteção de senha utilizando hash Bcrypt.
 * **Autenticação de Login (`/login`)**: Validação de credenciais e comparação segura de hashes.
+* **Gerenciamento de Sessão (`session`)**: Controle de estado para manter o usuário autenticado.
