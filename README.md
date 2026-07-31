@@ -31,3 +31,8 @@ Sistema de autenticação backend desenvolvido em *Python* utilizando *Flask*, c
 ```
 4. Acesse no navegador: `http://127.0.0.1:5000/`
    *(Lembre-se apenas de trocar `SEU_USUARIO` pelo seu usuário real do GitHub na URL do clone).*
+
+---
+### 👤 Autor
+**Gabriel Canalli**  
+*Estudante de Análise e Desenvolvimento de Sistemas (4º Período)*
